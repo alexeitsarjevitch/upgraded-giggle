@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Название компании</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+    background: url('images/IMG0704.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+}
+#about {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 15px;
+    margin: 30px 0;
+}
+
+#about h2 {
+    font-family: 'Arial Black', sans-serif;
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+#about p {
+    font-family: 'Georgia', serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #555;
+    text-align: justify;
+}
+        /* Шапка */
+        header {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        /* Основной контент */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        /* Секции */
+        section {
+            margin: 60px 0;
+            padding: 40px 20px;
+        }
+
+        /* Преимущества */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            text-align: center;
+        }
+
+
+        /* Контакты */
+        .contacts {
+            background: #f8f9fa;
+            text-align: center;
+        }
+
+        /* Соцсети */
+        .social-links {
+            margin-top: 20px;
+        }
+
+        .social-links a {
+            color: #333;
+            font-size: 24px;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            header {
+                padding: 60px 20px;
+            }
+            
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>БАННЫЙ ВЕЧЕР</h1>
+        <p>«Жар наших бань — ваше вечное лето»</p>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>О нас</h2>
+            <p>«Баня вашей мечты — в деталях!»
+Компания «БАННЫЙ ВЕЧЕР» — профессиональная отделка бань и саун «под ключ». Превращаем обычные парные в пространства для релакса, используя:
+✅ Экоматериалы (липа, кедр, абаш) — безопасно для здоровья
+✅ Авторский дизайн — от классики до modern
+✅ Технологичную защиту от влаги и перепадов температур
+
+Почему нас выбирают:
+▪️ Фиксированные сроки — сдаем объекты день в день
+▪️ 98% ровных стыков (проверяем лазерным уровнем)
+▪️ Дарим фирменную уходовую косметику для древесины
+
+«Ваша баня станет любимым местом семьи — обещаем аромат дерева и безупречные линии!».</p>
+        </section>
+
+        <section id="features">
+            <div class="features">
+                <div>
+                    <h3>Преимущество 1</h3>
+                    <p>«Фиксированная смета — стоимость не изменится в процессе работ»</p>
+                </div>
+                <div>
+                    <h3>Преимущество 2</h3>
+                    <p>«Полный цикл работ — от эскиза до первой парной»</p>
+                </div>
+                <div>
+                    <h3>Преимущество 3</h3>
+                    <p>«Эко-пропитки — безопасно для детей и аллергиков»</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <h2>Контакты</h2>
+            <p><i class="fas fa-map-marker-alt"></i> г. Тольятти</p>
+            <p><i class="fas fa-phone"></i> <a href="tel:+7(937)6540760">+7(937)6540760</a></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:zimarev2018@yandex.ru">zimarev2018@yandex.ru</a></p>
+            
+            <div class="social-links">
+                <a href="https://wa.me/79376540760"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://t.me/@AVZimarev"><i class="fab fa-telegram"></i></a>
+                <a href="https://vk.com/emperor2018"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
